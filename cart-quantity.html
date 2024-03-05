@@ -5,12 +5,13 @@
   </head>
   <body>
     <p>Cart Quantity</p>
+    
     <button onclick="
       console.log(`cart quantity: ${cartQuantity}`);
     ">Show Quantity</button>
 
     <button onclick="
-      cartQuantity = cartQuantity + 1;
+      cartQuantity = cartQuantity++;
       console.log(`cart quantity: ${cartQuantity}`);
     ">Add to Cart</button>
 
